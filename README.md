@@ -47,3 +47,26 @@ Projeto **demonstrativo** de um chatbot interno de RH para WhatsApp, com **hando
 - **Não** faça commit do `.env`
 - Não publique tokens, e-mails ou URLs internas
 - Se quiser tornar público: revise mensagens/textos para evitar qualquer referência sensível
+
+## Arquitetura do Projeto
+
+- Node.js + Express
+- Integração com WhatsApp Cloud API (Meta)
+- Gerenciamento de estados de conversa
+- Sistema de fila interno
+- Painel administrativo em tempo real (SSE)
+- Handover para atendimento humano
+
+## Fluxo Simplificado
+
+1. Usuário inicia conversa
+2. Bot apresenta menu
+3. Usuário seleciona opção
+4. Se necessário, é direcionado para fila de atendimento humano
+5. Admin assume atendimento via painel
+6. Atendimento é encerrado e status atualizado
+
+## Objetivo
+
+Demonstrar arquitetura de automação conversacional aplicada a atendimento interno corporativo.
+
