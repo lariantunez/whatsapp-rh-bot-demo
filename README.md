@@ -70,3 +70,8 @@ Projeto **demonstrativo** de um chatbot interno de RH para WhatsApp, com **hando
 
 Demonstrar arquitetura de automação conversacional aplicada a atendimento interno corporativo.
 
+## Demonstração
+
+https://youtu.be/E1FUTpiek4o
+
+
